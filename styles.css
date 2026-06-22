@@ -49,6 +49,7 @@ body {
 .uae-badge-container {
     display: flex;
     align-items: center;
+    margin-right: 20px;
 }
 
 .uae-badge-img {
@@ -100,8 +101,10 @@ body {
 /* --- Floating Login Box Card (Right) --- */
 .form-section {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    transform: translateY(-40px);
+    padding-right: 40px;
 }
 
 .login-card {
@@ -255,7 +258,7 @@ body {
 .bg-skyline {
     position: absolute;
     left: 4%;
-    bottom: 115px; /* lift the skyline to sit above the wave */
+    bottom: 125px; /* lift the skyline to sit above the wave */
     width: 58%;
     height: auto;
     object-fit: contain;
@@ -277,8 +280,8 @@ body {
 /* Flag placed between the skyline and the wave */
 .bg-flag {
     position: absolute;
-    left: 2%;
-    bottom: 100px; /* sits slightly above the base so the pole meets the wave */
+    left: 5%;
+    bottom: 80px; /* sits slightly above the base so the pole meets the wave */
     width: 9.5%;
     height: auto;
     object-fit: contain;
